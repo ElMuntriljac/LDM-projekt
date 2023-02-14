@@ -1,0 +1,59 @@
+Rubikova kocka
+
+
+
+
+
+
+
+Fakultet informatike u Puli
+
+
+
+
+Leon Dizdarević, Ilijas Čačić, Marko Knezović, Marko Damijanjević, Gregor Tikel i Marino Paolo Jelenković
+
+
+
+
+
+Pojmovnik
+
+
+1………………………………………………………….Uvod
+2………………………………………………………….Notacija
+3………………………………………………………….Begginer metoda
+4………………………………………………………….CFOP
+5………………………………………………………….Old Pochmann metoda
+6………………………………………………………….Zaključak
+7………………………………………………………….Literatura
+
+
+
+
+
+
+
+
+Uvod
+
+Rubikova kocka je trodimenzionalna kocka u boji koju je 1974. godine izumio mađarski kipar Erno Rubik. Rubik je igračku izvorno nazvao "Magic Cube" i licencirao ju je 1980. Do 2005. prodano je više od 300 milijuna primjeraka ove igračke. Postoji nekoliko vrsta Rubikove kocke. U klasičnom dizajnu (3x3x3), svaka od šest stranica kocke ima 9 kvadrata (u bijeloj, crvenoj, narančastoj, plavoj, žutoj i zelenoj boji), koji trebaju biti raspoređeni tako da svaka stranica bude jednobojna. Mehanizam kocke sastoji se od 3 dijela: Centralne kockice, kojih ima 6 i koje imaju samo jednu boju, nalaze se u sredini svake strane i određuju boju te strane. Rubne kockice, kojih ima 12 i koje imaju dvije boje na sebi. Vrhunske kockice kojih ima 8 i koje se sastoje od 3 boje. Bez obzira na veličinu, broj savršenih Rubikovih kocki bilo koje veličine uvijek će biti isti. Statističari su izračunali da postoji oko 43 trilijuna kombinacija kockica. Unatoč tome, dovoljno je 20 poteza za slaganje kockica iz bilo koje početne pozicije (tzv. Božji broj). U nastavku eseja objasnit ćemo primjer triju popularnih metoda slaganja Rubikove kocke, Beginner, CFOP (Fridrich) i Old-Pochmann. Prvo ćemo se pozabaviti Početničkom metodom jer je ona namijenjena onima koji se prvi put susreću s Rubikovom kockom. U usporedbi s drugim metodama, početnička metoda zahtjeva najmanje improvizacije, a sparivanje je svedeno na 7 koraka, od kojih samo prvi nije zadan, a ostali zahtijevaju pamćenje 10 kratkih algoritama (8 poteza) i prepoznavanje određenih slučajeva. na kocki kako bi se neki od algoritama mogao primijeniti. Nakon toga ćemo obraditi najpopularniju metodu za brzo slaganje Rubikove kocke, koja se naziva CFOP ili Fridrichova metoda. Ova metoda je prirodan nastavak Početničke metode jer slažu kocke "red po red" kao i Početnička metoda, ali u puno manje poteza. Za razliku od početničke metode, u ovoj metodi bit će puno više improvizacije i puno veći broj algoritama za pamćenje (čak 78, od kojih neki imaju i do 20 poteza). Nakon CFOP metode prelazimo na glavnu taktiku rješavanja, a to je Old-Pochmann metoda koja se koristi pri rješavanju Rubikove kocke na slijepo. Ova metoda je potpuno šablonska i rješava se isključivo ponavljanjem različitih algoritama.
+
+2. Zapis Rubikove kocke 3x3x3
+
+   Notni zapis koji se danas koristi izumio je David Singmaster i zove se Singmasterov notni zapis. Prije nego to objasnimo, moramo objasniti što je klasična shema boja. Na kocki je sljedeća shema boja: bijela je nasuprot žute, plava je nasuprot zelene, a crvena je nasuprot narančaste. Osim toga, ako je bijela strana dolje, a plava je okrenuta prema nama, narančasta bi trebala biti lijevo od plave, a crvena desno. Većina kocki ima takvu shemu. Ako je kocka postavljena tako da je bijela strana dolje, a plava okrenuta prema nama, definirajmo sljedeću oznaku stranica: • L, (lijevo) , lijeva strana, (u danom slučaju je narančasta) . • R, (desno), desna strana, (u spomenutom slučaju je crvena). • U, (gore), gornja strana, (u gornjem slučaju je žuta). • D, (dolje), donja strana, (u gornjem slučaju je bijele boje). • B, (leđa), stražnja/ledena strana, (u gornjem slučaju je zelena). • F, (sprijeda), desna strana, (u gornjem slučaju je plava).
+3.Početnička metoda
+
+Najlakša i najjednostavnija metoda koristi sljedeće korake: Korak 1 - Bijeli križ (Križ) - cilj ovog koraka je postaviti kocke s bijelim rubom na svoje mjesto i pravilno ih orijentirati. Ovo je jedini intuitivni korak (bez predloška) i ne zahtijeva nikakvo prethodno znanje o slaganju kocki. poznavanje algoritama, a ne samo znanje o tome što je kocka s bijelim rubom i što znači dovesti kocku na mjesto i tako je pravilno orijentirati. uobičajena pogreška u ovom koraku je formiranje krize samo na bijeloj strani bez gledanja jesu li rubni dijelovi na mjestu. Korak 2 - Prvi sloj - cilj ovog koraka je složiti bijeli sloj, tj. nakon naslaganih bijelih rubnih kocki, trebali biste složiti bijele gornje kocke, tj. dovesti bijele gornje kocke na svoje mjesto i pravilno ih orijentirati kako biste dovršili sloj . Za ovaj korak koriste se 3 algoritma. uobičajena pogreška u ovom koraku je zaboravljanje slaganja bijelog sloja, a ne bijele strane. 3. korak - Drugi sloj - cilj ovog koraka je složiti sloj iznad donjeg, tj. postaviti 4 rubne kocke koje ne sadrže ni bijelu ni žutu boju na svoje mjesto, pravilno orijentirane. Korak 4 - Križ na zadnjem sloju - cilj ovog koraka je oblikovati križ na žutoj strani. Ovdje nije važno jesu li žute rubne kocke na svom mjestu i pravilno orijentirane, one će popraviti sljedeći korak. Korak 5 - Strane križa - koristeći 1. algoritam, dovedite žute rubne kocke na njihovo mjesto i pravilno ih orijentirajte. Korak 6- Postavljanje gornjih kocki - koristeći 1 algoritam, dovedite žute gornje kocke na njihovo mjesto (ne moraju biti dobro orijentirane. Korak 7- Orijentacija gornjih kocki - koristeći 1. algoritam, pravilno orijentirajte žuti vrh kocke i završite proces slaganja
+
+4. CFOP
+
+    (Fridrichova metoda) Najpopularnija metoda za brzo slaganje Rubikove kocke, odnosno za ¨speedcubing¨. Izumiteljica metode je Jessica Fridrich. To je kraća i naprednija verzija Beginner metode, no za poznavanje CFOP metode potrebno je poznavati 78 algoritama. Većina rekorda (uključujući hrvatski državni rekord) postavljena je ovom metodom ili nekim njezinim poboljšanjima. Sastoji se od 4 koraka: 1. korak - Bijeli križ - identičan 1. koraku Početničke metode. 2. korak - Prva 2 sloja (prva 2 sloja, F2L) - ovaj korak je kombinacija drugog i trećeg koraka iz početničke metode i radi se intuitivno, potrebno je puno vremena za učenje. Korak 3 - Orijentacija posljednjeg sloja (OLL) - cilj ovog koraka je prepoznati jednu od 57 mogućih situacija na gornjem sloju kocke i primjenom odgovarajućih algoritama urediti žutu stranu. Korak 4 - Permutacija posljednjeg sloja (PLL) - od dvadeset jednog mogućeg rasporeda žutih kocki, primjenom 1 algoritma, svaka žuta kocka dolazi na svoje mjesto i kocka se slaže.
+
+5. Stara Pochmannova metoda
+
+U ovom poglavlju ćemo razmotriti još jednu metodu slaganja Rubikove kocke koja je dobila ime po Stefanu Pochmannu. Izumljen je za slaganje Rubikove kocke na slijepo i to mu je glavna primjena. Prvo ćemo razmotriti ideju metode. Objašnjenje Old-Pochmannove metode. Za razumijevanje ove metode dovoljno je poznavanje notacije i mehanizma kocke, iako će poznavanje algoritama permutacije posljednjeg sloja CFOP metode svakako biti korisno. Prvo morate označiti položaj svakog dijela kocke. Ako je kocka postavljena tako da je plava strana okrenuta prema naprijed, a bijela prema dolje, počnimo od žute strane u smjeru kazaljke na satu i nazovimo rubne kocke sljedećim slovima: A,B,C,D. Zatim prijeđemo na plavu stranu i u smjeru kazaljke na satu imenujemo rubne kocke s E,F,G,H. Zarotirajmo kocku tako da crvena strana bude ispred i nazovimo rubne kocke sa I,J,K,L na isti način. Zatim zarotirajmo kocku tako da zelena strana bude prema naprijed i na isti način rubne kocke imenujemo slovima M,N,O,P. Ponavljajući postupak na narančastoj strani, dobivamo R,S,S,T. Na kraju, vratimo plavu stranu naprijed i zatim zarotirajmo kocku tako da bijela strana bude naprijed, a plava strana gore i nazovimo rubne kocke U,V,Z,Z. Isti postupak ponovimo za gornje kocke. Moramo predstaviti algoritme koje koristi metoda, a to su 4 algoritma iz permutacije zadnjeg sloja u CFOP metodi. Navest ćemo ih i prikazati kroz radnju slika.
+
+6. Završetak
+
+U eseju je opisana povijest Rubikove kocke 3x3x3, njen izgled i mehanizam, a navedene su 3 metode rješavanja (početna metoda, CFOP (Fridrich) metoda i Old-Pochmannova metoda). Prije opisa slaganja metoda definirana je notacija, odnosno zapis pojedinačnih poteza na kocki, te su objašnjeni pojmovi koje je potrebno razumjeti kako bi se pojedina metoda svladala. U opisu prve dvije navedene metode slaganja navedeni su osnovni koraci svake metode i cilj svakog koraka.
